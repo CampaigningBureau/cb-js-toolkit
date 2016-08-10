@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>trackHashView Example</title>
+
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="../src/cbToolkit_trackHashView.js"></script>
+    </head>
+    <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <menu class="nav navbar-nav">
+            <li><a href="#explain">Explain</a></li>
+            <li><a href="#section1">Link 1</a></li>
+            <li><a href="#section2">Link 2</a></li>
+            <li><a href="#section3">Link 3</a></li>
+            <li><a href="#section4">Link 4</a></li>
+            <li><a href="#section5">Link 5</a></li>
+        </menu>
+    </nav>
+
+    <section id="empty"><br><br><br><br><br>Section Empty<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
+    <section id="explain">
+        <br><br><br><br><br>
+        <div class="container">
+            <p class="alert alert-info">Open DevTools to see debug output</p>
+            <p class="alert alert-warning">The option <code>sendPageview</code> only works with the new Google <code>analytics.js</code></p>
+
+            <h1>Usage of cbToolkit_trackHashView.js</h1>
+            <p>Implemented using: <code>jQuery('menu').cbToolkit_trackHashView({});</code></p>
+            <br><br><br><br><br><br>
+        </div>
+    </section>
+    <section id="section1" class="jumbotron"><br><br><br><br><br>Section 1<br><br><br><br><br><br><br><br><br><br><br><br></section>
+    <section id="section2"><br><br><br><br><br>Section 2<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
+    <section id="section3" class="jumbotron"><br><br><br><br><br>Section 3<br><br><br><br><br><br><br><br><br><br><br><br></section>
+    <section id="section4"><br><br><br><br><br>Section 4<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
+    <section id="section5" class="jumbotron"><br><br><br><br><br>Section 5<br><br><br><br><br><br><br><br><br><br><br><br></section>
+
+
+    <script>
+        jQuery('menu').cbToolkit_trackHashView({
+            debug: true
+        });
+    </script>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "name": "cb-js-toolkit",
+  "version": "0.0.1",
+  "author": "Campaigning Bureau",
+  "description": "A Collection of usefull and often used JS-Snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://code.google.com/p/cb-js-toolkit/"
+  },
+  "contributors": [
+    {
+      "name": "Christoph Schleifer",
+      "email": "christoph.schleifer(a)campaigning-bureau.com"
+    },
+    {
+      "name": "Michael Scharl     ",
+      "email": "ms(a)campaigning-bureau.com"
+    },
+    {
+      "name": "Stefan Schindler   ",
+      "email": "stefan.schindler(a)campaigning-bureau.com"
+    },
+    {
+      "name": "Rainer Angerer     ",
+      "email": "rainer.angerer(a)campaigning-bureau.com"
+    }
+  ],
+  "dependencies": {
+    "grunt-newer": "~0.7.0"
+  },
+  "devDependencies": {
+    "matchdep": "~0.3.0",
+    "grunt": "~0.4.2",
+    "grunt-banner": "~0.2.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-newer": "~0.6.1"
+  },
+  "toolkit": {
+    "namespace": "cbToolkit_"
+  }
+}
