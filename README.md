@@ -23,3 +23,6 @@ While developing you can run **grunt watch** from inside your project dir.
 This will trigger [jshint](http://www.jshint.com/) on every **src/\*\*/\*.js** file change.
 
 When finished you have to run **grunt** from inside your project dir to compile the bundled and minified scripts.
+
+
+For direct embed use script link and convert it to cdn with http://rawgit.com/
